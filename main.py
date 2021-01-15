@@ -22,5 +22,5 @@ userName = input("What is your name? ")
 print("Hey " + userName)
 
 # Ask the user for their birth year
-userBirth = input("When is your birth year? ")
-print(2021-int(userBirth))
+userBirth = int(input("When is your birth year? "))
+print(2021-userBirth)
